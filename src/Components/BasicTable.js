@@ -42,7 +42,7 @@ function BasicTable() {
             }
         </thead>
         <tbody {...getTableBodyProps()}> {/* get table body props */}
-            {rows.map((row) => { {/* from rows take individual row */}
+            {rows.map((row) => { /* from rows take individual row */
                 prepareRow(row)
                     return (
                         <tr {...row.getRowProps()} scope="row">
